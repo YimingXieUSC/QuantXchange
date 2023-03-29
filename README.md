@@ -22,3 +22,19 @@ To update dependencies of the application
 To deactivate the virtual environment
 
     deactivate
+    
+Start Strapi in watch mode. (Changes in Strapi project files will trigger a server restart)   
+    yarn develop
+  
+Start Strapi without watch mode.
+
+  yarn start
+  
+Build Strapi admin panel.
+
+  yarn build
+  
+Display all available commands. 
+
+  yarn strapi
+     
